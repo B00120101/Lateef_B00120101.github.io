@@ -1,0 +1,301 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+#layout{
+    display: grid;
+    grid-template-columns: [ads-start] 1fr [ads-end  main-start] 3fr
+    [main-end  links-start] 1fr [links-end];
+    
+    grid-template-rows: [header-start] 50px [header-end  main-start] 200px [main-end footer-start] 100px [footer-end]; 
+    grid-gap: 20px  ;
+    
+}
+
+.item {
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;  
+}
+
+.one {
+     background-color: lightpink;
+     grid-row: 1 / span 1;
+     grid-column: span 3 / -1;
+    text-align: right;
+    color: white;
+    padding-right: 10px;
+}
+
+.two {
+      background-color: white;
+      grid-area: 2 / 1 / 3 / 2 ;  
+}
+
+.three {
+       background-color: white;
+       grid-row: 2 / 3;
+       grid-column: 2 / 3;
+       font-size: 150%;
+       text-align: justify;
+  
+       
+}    
+
+.two {
+      background-color: white;
+      grid-area: 2 / 1 / 3 / 2 ;  
+}
+
+.three4{
+    font-size: 20px;
+    text-align: center;
+  
+    
+}
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: lightpink;
+   color: white;
+   text-align: center;
+   padding: 30px;
+   font-size: 25px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: lightskyblue;
+}
+
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: lightpink;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: lightpink;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+mark {
+  background: lightgreen;
+  color: black;
+}
+
+
+
+#layout2{
+    display: grid;
+    grid-template-columns: [ads-start] 1fr [ads-end  main-start] 3fr
+    [main-end  links-start] 1fr [links-end];
+    
+    grid-template-rows: [header-start] 50px [header-end  main-start] 200px [main-end footer-start] 100px [footer-end]; 
+    grid-gap: 20px  ;
+    
+}
+
+.item2 {
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;  
+}
+
+.one2 {
+     background-color: lightpink;
+     grid-row: 1 / span 1;
+     grid-column: span 3 / -1;
+    text-align: right;
+    color: white;
+    padding-right: 10px;
+}
+
+#layout3{
+    display: grid;
+    grid-template-columns: [ads-start] 1fr [ads-end  main-start] 3fr
+    [main-end  links-start] 1fr [links-end];
+    
+    grid-template-rows: [header-start] 50px [header-end  main-start] 200px [main-end footer-start] 100px [footer-end]; 
+    grid-gap: 20px  ;
+    
+}
+
+.item3 {
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;  
+}
+
+.one3 {
+     background-color: lightpink;
+     grid-row: 1 / span 1;
+     grid-column: span 3 / -1;
+    text-align: right;
+    color: white;
+    padding-right: 10px;
+}
+
+#layout4{
+    display: grid;
+    grid-template-columns: [ads-start] 1fr [ads-end  main-start] 3fr
+    [main-end  links-start] 1fr [links-end];
+    
+    grid-template-rows: [header-start] 50px [header-end  main-start] 200px [main-end footer-start] 100px [footer-end]; 
+    grid-gap: 20px  ;
+    
+}
+
+.item4 {
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;  
+}
+
+.one4 {
+     background-color: lightpink;
+     grid-row: 1 / span 1;
+     grid-column: span 3 / -1;
+    text-align: right;
+    color: white;
+    padding-right: 10px;
+}
+
+#layout5{
+    display: grid;
+    grid-template-columns: [ads-start] 1fr [ads-end  main-start] 3fr
+    [main-end  links-start] 1fr [links-end];
+    
+    grid-template-rows: [header-start] 50px [header-end  main-start] 200px [main-end footer-start] 100px [footer-end]; 
+    grid-gap: 20px  ;
+    
+}
+
+.item5 {
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;  
+}
+
+.one5 {
+     background-color: lightpink;
+     grid-row: 1 / span 1;
+     grid-column: span 3 / -1;
+    text-align: right;
+    color: white;
+    padding-right: 10px;
+
+}
+
+section {
+    background-color: lightpink ;
+    border-style: double;
+    width: 300px;
+    height: 250px;
+    padding:  5px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 18px;
+    
+}
+
+#layout6{
+    display: grid;
+    grid-template-columns: [ads-start] 1fr [ads-end  main-start] 3fr
+    [main-end  links-start] 1fr [links-end];
+    
+    grid-template-rows: [header-start] 50px [header-end  main-start];
+    grid-gap: 20px;
+   
+}
+
+form, .results{
+    position: relative;
+    top: 20px;
+    width: 400px;
+    margin: auto;
+    border: 8px solid lightpink;
+    border-radius: 15px;
+    padding: 18px;
+    font-family: sans-serif;
+    background: lightskyblue; 
+}
+
+fieldset {
+    background-color: lightpink;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+legend{
+    font-size: 28px;
+    color: white; 
+}
+
+.pop{
+    font-family: sans-serif;
+    text-align: justify-all;
+    font-size: 30px;
+    width: 75%;
+    border: 3px solid lightpink;
+}
+
+.po{
+    font-family: sans-serif;
+    text-align: justify-all;
+    font-size: 29px;
+    width: 75%;
+    border: 3px solid lightpink;
+}
